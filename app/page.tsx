@@ -42,13 +42,7 @@ export default function Home() {
           />
         </div>
 
-        <WeatherCard
-          location="Norwich, Norfolk"
-          day="Monday"
-          temperature={22}
-          fahrenheit={71.6}
-          condition="partly-cloudy"
-        />
+        <WeatherCard/>
       </main>
     </div>
   );
